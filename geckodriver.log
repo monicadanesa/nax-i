@@ -1,0 +1,549 @@
+1544094207818	geckodriver	INFO	geckodriver 0.19.1
+1544094207931	geckodriver	INFO	Listening on 127.0.0.1:54416
+1544094212706	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.61yFpzxoaJAn"
+1544094213695	Marionette	DEBUG	Received observer notification profile-after-change
+1544094213888	Marionette	DEBUG	Received observer notification command-line-startup
+1544094213888	Marionette	DEBUG	Received observer notification nsPref:changed
+1544094213888	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544094214287	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544094215744	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544094215744	Marionette	DEBUG	Waiting for delayed startup...
+1544094216087	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544094216088	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544094216089	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544094216089	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544094216090	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544094216169	Marionette	INFO	Listening on port 54423
+1544094216169	Marionette	DEBUG	Remote service is active
+1544094216207	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54492
+1544094216233	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544094216235	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1544094604354	geckodriver	INFO	geckodriver 0.19.1
+1544094604453	geckodriver	INFO	Listening on 127.0.0.1:54636
+1544094607374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.V9UI0sVf3XW2"
+1544094608409	Marionette	DEBUG	Received observer notification profile-after-change
+1544094608619	Marionette	DEBUG	Received observer notification command-line-startup
+1544094608619	Marionette	DEBUG	Received observer notification nsPref:changed
+1544094608619	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544094609003	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544094611755	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544094611757	Marionette	DEBUG	Waiting for delayed startup...
+1544094612143	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544094612143	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544094612145	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544094612145	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544094612146	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544094612235	Marionette	INFO	Listening on port 54643
+1544094612235	Marionette	DEBUG	Remote service is active
+1544094612472	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54739
+1544094612524	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544094612526	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4703, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4702, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1544094689559	geckodriver	INFO	geckodriver 0.19.1
+1544094689661	geckodriver	INFO	Listening on 127.0.0.1:54813
+1544094694377	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.5bn6ijxHzubS"
+1544094695360	Marionette	DEBUG	Received observer notification profile-after-change
+1544094695579	Marionette	DEBUG	Received observer notification command-line-startup
+1544094695579	Marionette	DEBUG	Received observer notification nsPref:changed
+1544094695580	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544094695897	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544094697394	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544094697395	Marionette	DEBUG	Waiting for delayed startup...
+1544094697706	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1544094697706	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544094697708	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544094697709	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544094697710	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544094697779	Marionette	INFO	Listening on port 54820
+1544094697780	Marionette	DEBUG	Remote service is active
+1544094697880	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54890
+1544094697887	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1544094697888	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:245:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1544095579094	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.8ItI1qvgMbXC"
+1544095583215	Marionette	INFO	Listening on port 55163
+1544095583295	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544095592274	Marionette	INFO	Stopped listening on port 55163
+1544167864130	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.dqsAIWhnpdUz"
+1544167867791	Marionette	INFO	Listening on port 49381
+1544167867859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544168140107	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.Q2fBQ5NVf7vv"
+1544168143463	Marionette	INFO	Listening on port 49674
+1544168143520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544168151431	Marionette	INFO	Stopped listening on port 49674
+1544168165760	Marionette	INFO	Stopped listening on port 49381
+1544168202964	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.ahSDjH7D4ebb"
+*** You are running in headless mode.
+1544168206931	Marionette	INFO	Listening on port 49791
+1544168207000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544168323743	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.GokO8rxRwYpX"
+1544168327366	Marionette	INFO	Listening on port 49933
+1544168327464	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544168365764	Marionette	INFO	Stopped listening on port 49933
+1544168439970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.1JmL6hMes8fh"
+1544168443272	Marionette	INFO	Listening on port 50087
+1544168443377	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544168838928	Marionette	INFO	Stopped listening on port 50087
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1544170428501	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.90hNDsB0Au8o"
+1544170432121	Marionette	INFO	Listening on port 50071
+1544170432190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544170463705	Marionette	INFO	Stopped listening on port 50071
+1544170944775	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.su4x9y2RJgoA"
+1544170948355	Marionette	INFO	Listening on port 50567
+1544170948467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544170956440	Marionette	INFO	Stopped listening on port 50567
+1544171029630	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.H5AlAbCkBwBE"
+1544171033304	Marionette	INFO	Listening on port 50639
+1544171033389	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544171156432	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.hHUKdsKr4hU3"
+1544171160321	Marionette	INFO	Listening on port 50765
+1544171160365	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1716, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 1716, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 1716, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+[Child 1716, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 729
+1544171175799	Marionette	INFO	Stopped listening on port 50765
+1544171181896	Marionette	INFO	Stopped listening on port 50639
+1544171233817	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.fwb2RoYPgFxe"
+1544171237206	Marionette	INFO	Listening on port 50867
+1544171237282	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544171388740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.MZCNil10SUpj"
+1544171392120	Marionette	INFO	Listening on port 50958
+1544171392180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544171410426	Marionette	INFO	Stopped listening on port 50958
+1544171413134	Marionette	INFO	Stopped listening on port 50867
+1544171423781	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.uTbaj7oBh1RP"
+1544171427399	Marionette	INFO	Listening on port 51048
+1544171427448	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544171848133	Marionette	INFO	Stopped listening on port 51048
+1544238592990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.De2A8QLsisgL"
+1544238596779	Marionette	INFO	Listening on port 52366
+1544238596814	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544238622139	Marionette	INFO	Stopped listening on port 52366
+1544239322406	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.944IOWBYxDOu"
+1544239325840	Marionette	INFO	Listening on port 52613
+1544239325928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544239336895	Marionette	INFO	Stopped listening on port 52613
+1544241441313	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.WaRrmWpoAaLx"
+1544241444873	Marionette	INFO	Listening on port 53773
+1544241444923	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544241512377	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.yJtT2HHmB6iW"
+1544241515927	Marionette	INFO	Listening on port 53836
+1544241515996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544241795793	Marionette	INFO	Stopped listening on port 53773
+1544241795878	Marionette	INFO	Stopped listening on port 53836
+1544241837345	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.8QuteLUn6n1t"
+1544241840694	Marionette	INFO	Listening on port 54069
+1544241840757	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544242241154	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.8ZtElTj51Y91"
+1544242244579	Marionette	INFO	Listening on port 54223
+1544242244661	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544242277331	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.Ls4glQHAiPE1"
+1544242280559	Marionette	INFO	Listening on port 54317
+1544242280629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544242309859	Marionette	INFO	Stopped listening on port 54317
+1544242313600	Marionette	INFO	Stopped listening on port 54223
+1544242316579	Marionette	INFO	Stopped listening on port 54069
+1544242338946	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.fcysyf1ryghy"
+1544242342339	Marionette	INFO	Listening on port 54400
+1544242342446	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544243027158	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.KCPGI7zj2ueJ"
+1544243030096	Marionette	INFO	Listening on port 54520
+1544243030151	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243064898	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.v2SLEpGcdKPd"
+1544243068162	Marionette	INFO	Listening on port 54605
+1544243068207	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544243413467	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.o7raHNCJYJMt"
+1544243416655	Marionette	INFO	Listening on port 54698
+1544243416747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243501730	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.1SV4TrtnnCmQ"
+1544243505088	Marionette	INFO	Listening on port 54785
+1544243505106	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243542986	Marionette	INFO	Stopped listening on port 54785
+1544243546169	Marionette	INFO	Stopped listening on port 54698
+1544243548939	Marionette	INFO	Stopped listening on port 54605
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1544243551450	Marionette	INFO	Stopped listening on port 54520
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1544243554084	Marionette	INFO	Stopped listening on port 54400
+1544243570688	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.x9fwPFStjUXl"
+1544243574013	Marionette	INFO	Listening on port 54867
+1544243574108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243649374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.UAVKrrjacj3z"
+1544243652537	Marionette	INFO	Listening on port 54990
+1544243652566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243702795	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.9PjjihIvPjJ3"
+1544243705587	Marionette	INFO	Listening on port 55072
+1544243705699	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544243869121	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.n3V9IoxGdfmb"
+1544243872182	Marionette	INFO	Listening on port 55150
+1544243872278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+1544243890458	Marionette	INFO	Stopped listening on port 55150
+1544243893886	Marionette	INFO	Stopped listening on port 55072
+1544243902658	Marionette	INFO	Stopped listening on port 54990
+1544243905644	Marionette	INFO	Stopped listening on port 54867
+1544243942277	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.rvylShr0p1tP"
+1544243945687	Marionette	INFO	Listening on port 55251
+1544243945760	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+1544244162655	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.ynNnvcq8BfGZ"
+1544244165521	Marionette	INFO	Listening on port 55354
+1544244165531	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544244872708	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.9bxJcGVEPI1D"
+1544244875794	Marionette	INFO	Listening on port 55873
+1544244875891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+1544244883175	Marionette	INFO	Stopped listening on port 55873
+1544244885530	Marionette	INFO	Stopped listening on port 55354
+1544244888040	Marionette	INFO	Stopped listening on port 55251
+1544245356136	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.HCerZhyZpVuI"
+1544245359548	Marionette	INFO	Listening on port 56013
+1544245359625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544245668440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.yUEShdi5dSvl"
+1544245671642	Marionette	INFO	Listening on port 56291
+1544245671716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+1544245680240	Marionette	INFO	Stopped listening on port 56291
+1544354415102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.MN7w9uERgQYk"
+1544354419057	Marionette	INFO	Listening on port 56459
+1544354419126	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544354431800	Marionette	INFO	Stopped listening on port 56459
+1544354493052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.a5fdbcz7uXPE"
+1544354496167	Marionette	INFO	Listening on port 56553
+1544354496247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544354710112	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.Y21hPJgtm8wW"
+1544354713045	Marionette	INFO	Listening on port 56636
+1544354713113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544354723763	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.5OatjtsOKRJz"
+1544354726752	Marionette	INFO	Listening on port 56682
+1544354726840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+1544354989328	Marionette	INFO	Stopped listening on port 56636
+1544354989475	Marionette	INFO	Stopped listening on port 56553
+1544354990269	Marionette	INFO	Stopped listening on port 56682
+1544354996728	Marionette	INFO	Stopped listening on port 56013
+1544356129439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.oGhvyga5Prlw"
+1544356132581	Marionette	INFO	Listening on port 57409
+1544356132668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544356333275	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.oXpkf9POER3y"
+1544356336569	Marionette	INFO	Listening on port 57519
+1544356336654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544356366846	Marionette	INFO	Stopped listening on port 57519
+1544356372882	Marionette	INFO	Stopped listening on port 57409
+1544356427658	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.Nj1fsSSMV9yS"
+1544356430815	Marionette	INFO	Listening on port 57612
+1544356430869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 87: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-232293-17, line 147: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544357146041	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.qMYjgsSgsLWx"
+1544357149201	Marionette	INFO	Listening on port 57814
+1544357149238	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544357200381	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.WIJAMUYxuDCq"
+1544357203493	Marionette	INFO	Listening on port 57903
+1544357203576	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1544357280460	Marionette	INFO	Stopped listening on port 57903
+1544357283468	Marionette	INFO	Stopped listening on port 57814
+1544357286200	Marionette	INFO	Stopped listening on port 57612
+1544357289585	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.kVCsApFpt9v1"
+1544357292603	Marionette	INFO	Listening on port 58003
+1544357292673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544357433513	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.IlXSOlLpXnty"
+1544357436445	Marionette	INFO	Listening on port 58136
+1544357436504	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544358281417	Marionette	INFO	Stopped listening on port 58136
+1544358390644	Marionette	INFO	Stopped listening on port 58003
+1544358393701	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.xtezxVZTx2rp"
+1544358396809	Marionette	INFO	Listening on port 58390
+1544358396904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544358406333	Marionette	INFO	Stopped listening on port 58390
+1544358427180	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.cVx6EvcxE3KZ"
+1544358430072	Marionette	INFO	Listening on port 58482
+1544358430213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544358528038	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.uVU2a9g82n2F"
+1544358531129	Marionette	INFO	Listening on port 58574
+1544358531215	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544358545481	Marionette	INFO	Stopped listening on port 58574
+1544358548122	Marionette	INFO	Stopped listening on port 58482
+1544358555228	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.qpbk1HkrBX4r"
+1544358558324	Marionette	INFO	Listening on port 58626
+1544358558426	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544358578274	Marionette	INFO	Stopped listening on port 58626
+1544359752642	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.IebBT5WiOJKZ"
+1544359755787	Marionette	INFO	Listening on port 58845
+1544359755863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544359784236	Marionette	INFO	Stopped listening on port 58845
+1544360477212	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.M8TaSGE2F3s9"
+1544360480697	Marionette	INFO	Listening on port 58973
+1544360480810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544360655576	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.ISNfrkfpfh8F"
+1544360658765	Marionette	INFO	Listening on port 59153
+1544360658794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544360764887	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.LQ6nsPuXU3qa"
+1544360768300	Marionette	INFO	Listening on port 59269
+1544360768396	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544360770230	Marionette	INFO	Stopped listening on port 59153
+1544360839991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.zBlPpDFrY2LP"
+1544360843370	Marionette	INFO	Listening on port 59389
+1544360843398	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544360949295	Marionette	INFO	Stopped listening on port 59389
+1544360953081	Marionette	INFO	Stopped listening on port 59269
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544361258647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.5tHpFQKUBZs9"
+1544361261861	Marionette	INFO	Listening on port 59540
+1544361261970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544361298095	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.NVizf0lxL9iV"
+1544361301134	Marionette	INFO	Stopped listening on port 59540
+1544361301867	Marionette	INFO	Listening on port 59629
+1544361301900	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544361466188	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.rozTANaC9i14"
+1544361469661	Marionette	INFO	Listening on port 59776
+1544361469734	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544361544576	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.wMRSbmJ99J6Y"
+1544361547984	Marionette	INFO	Listening on port 59862
+1544361548074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544361566959	Marionette	INFO	Stopped listening on port 59862
+1544361570423	Marionette	INFO	Stopped listening on port 59776
+1544361574110	Marionette	INFO	Stopped listening on port 59629
+1544361763791	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.9vJXLAQI7uGC"
+1544361767202	Marionette	INFO	Listening on port 59989
+1544361767310	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544362631853	Marionette	INFO	Stopped listening on port 58973
+1544362635931	Marionette	INFO	Stopped listening on port 59989
+1544365033875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.kA1GNHFSRPin"
+1544365037675	Marionette	INFO	Listening on port 60325
+1544365037705	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1544365142294	Marionette	INFO	Stopped listening on port 60325
+1544365144957	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.3Ks2W3T9EEpp"
+1544365147957	Marionette	INFO	Listening on port 60440
+1544365148070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544365350841	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.PxgLJmNY3ciu"
+1544365354186	Marionette	INFO	Listening on port 60552
+1544365354253	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544365531619	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/jf/v2_vm9zs5mq0z3vvqy54hz7m0000gn/T/rust_mozprofile.G2svvgZKZtK3"
+1544365535086	Marionette	INFO	Listening on port 60681
+1544365535120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544365548032	Marionette	INFO	Stopped listening on port 60681
+1544365551747	Marionette	INFO	Stopped listening on port 60552
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1544365560152	Marionette	INFO	Stopped listening on port 60440
