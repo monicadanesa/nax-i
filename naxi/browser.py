@@ -14,7 +14,7 @@ class Browser:
         self.ce = Common_element()
         self.el = Element()
 
-    def open_browser(self, url, driver_name='firefox', **kwargs):
+    def navigate_url(self, url, driver_name='firefox', **kwargs):
         if driver_name == 'chrome':
             try:
                 chrome = ChromeDriver()
@@ -37,7 +37,7 @@ class Browser:
     def close_browser(self):
         return self.ce.close_browser(self.driver)
 
-    def find_by(self, **kwargs):
+    def __element_template(self, **kwargs):
         if 'id' in kwargs:
             element = 'id'
             element_value = kwargs.get('id')
@@ -53,7 +53,54 @@ class Browser:
         elif 'link' in kwargs:
             element = 'link_text'
             element_value = kwargs.get('link')
+        elif 'class' in kwargs:
+            element = 'class_name'
+            element_value = kwargs.get('class')
         else:
-            error('element cannot be found')
+            error('element '+ element_value + 'cannot be found')
 
+        time = kwargs.get('time')
+        dictionary_element = {'element':element, 'element_value':element_value, 'time':time}
+        return dictionary_element
+
+    def find_by(self, **kwargs):
+        get_element = self.__element_template(**kwargs)
+        element = get_element.get('element')
+        element_value = get_element.get('element_value')
         return self.el.find_element(self.driver, element, element_value)
+
+    def wait_title_contains(self, title):
+        return self.el.title_contains(self.driver, title)
+
+    def wait_element_by(self, **kwargs):
+        get_element = self.__element_template(**kwargs)
+        element = get_element.get('element')
+        element_value = get_element.get('element_value')
+        time = get_element.get('time')
+
+        return self.el.wait_element(self.driver, element.upper(), element_value, time)
+
+    def click(self, **kwargs):
+        element_for_click = self.find_by(**kwargs)
+        return self.el.action_click_element(
+        self.driver, element_for_click,
+        type_action='click')
+
+    def click_and_hold(self, **kwargs):
+        element_for_click = self.find_by(**kwargs)
+
+        return self.el.action_click_element(
+        self.driver, element_for_click,
+        type_action='click_and_hold')
+
+    def double_click(self, **kwargs):
+        element_for_click = self.find_by(**kwargs)
+
+        return self.el.action_click_element(
+        self.driver, element_for_click,
+        type_action='double_click')
+
+
+# br = Browser()
+# br.open_browser('https://mekar-test.xyz/')
+# br.wait_element_present(id='lang_english', time=10)
