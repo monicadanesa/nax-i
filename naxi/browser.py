@@ -67,6 +67,7 @@ class Browser:
         get_element = self.__element_template(**kwargs)
         element = get_element.get('element')
         element_value = get_element.get('element_value')
+
         return self.el.find_element(self.driver, element, element_value)
 
     def wait_title_contains(self, title):
@@ -100,7 +101,27 @@ class Browser:
         self.driver, element_for_click,
         type_action='double_click')
 
+    def send_value(self, **kwargs):
+        element_for_input = self.find_by(**kwargs)
+
+        if 'value' in kwargs is None:
+            return False
+            error('The value is empty, please input the value')
+        else:
+            value = kwargs.get('value')
+            return self.el.type(element_for_input, value)
+
+    def get_value(self, **kwargs):
+        element_for_get_value = self.find_by(**kwargs)
+        return self.ce.get_value(element_for_get_value)
+
+    def get_text(self, **kwargs):
+        element_for_get_text = self.find_by(**kwargs)
+        return self.ce.get_text(element_for_get_text)
+
+
 
 # br = Browser()
-# br.open_browser('https://mekar-test.xyz/')
+# element = br.navigate_url('https://mekar-test.xyz/')
+# element.find_by(id='navbarsExampleDefault')
 # br.wait_element_present(id='lang_english', time=10)

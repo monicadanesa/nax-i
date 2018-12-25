@@ -11,3 +11,17 @@ class Common_element:
 
     def close_browser(self, driver):
         driver.close()
+
+    def get_value(self, element):
+        try:
+            return element.get_attribute('value')
+        except Exception as Argument:
+            return False
+            raise ValueError(Argument)
+
+    def get_text(self, element):
+        try:
+            return element.text
+        except Exception as Argument:
+            return False
+            raise ValueError(Argument)

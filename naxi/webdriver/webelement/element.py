@@ -65,17 +65,23 @@ class Element:
         try:
             if type_action == 'click':
                 action_element = element.click()
-                return action_element
             elif type_action == 'click_and_hold':
                 action_element = ActionChains(driver).click_and_hold(element).perform()
             elif type_action == 'double_click':
                 action_element = ActionChains(driver).double_click(element).perform()
+
+            return action_element
+
+        except Exception:
+            err_message = 'Got an error exception'
+            return err_message
+            raise ValueError(err_message)
         except WebDriverException:
             err_message = 'Unable to start webdriver'
             return err_message
             raise WebDriverError(err_message)
         except NoSuchElementException:
-            err_message = 'The element cannot cannot be found'
+            err_message = 'The element cannot be found'
             return err_message
             raise ValueError(err_message)
         except ElementClickInterceptedException:
@@ -94,3 +100,10 @@ class Element:
             raise ValueError('The element cannot be found')
         except MoveTargetOutOfBoundsException:
             raise ValueError('ActionsChains move method is invalid')
+
+    def type(self, element, value):
+        try:
+            return element.send_keys(value)
+        except Exception as Argument:
+            return False
+            raise ValueError(Argument)
