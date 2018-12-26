@@ -118,10 +118,3 @@ class Browser:
     def get_text(self, **kwargs):
         element_for_get_text = self.find_by(**kwargs)
         return self.ce.get_text(element_for_get_text)
-
-
-
-# br = Browser()
-# element = br.navigate_url('https://mekar-test.xyz/')
-# element.find_by(id='navbarsExampleDefault')
-# br.wait_element_present(id='lang_english', time=10)

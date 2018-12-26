@@ -4,4 +4,6 @@ __pycache__
 
 kotretan.py
 
-*log
+.log
+
+.pyc

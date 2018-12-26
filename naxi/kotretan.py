@@ -3,7 +3,7 @@ from naxi.browser import Browser
 
 
 browser = Browser()
-browser.navigate_url(url='https://mekar-test.xyz/accounts/login/')
+browser.navigate_url(url='https://xyz')
 browser.check_current_url()
 browser.find_by(id='inline-display-name')
 browser.wait_title_contains('Stack Overflow - Where Developers Learn, Share, & Build Careers')
