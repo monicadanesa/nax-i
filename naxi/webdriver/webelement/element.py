@@ -9,6 +9,7 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import MoveTargetOutOfBoundsException
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.keys import Keys
 
 
 @attr.s
@@ -107,3 +108,15 @@ class Element:
         except Exception as Argument:
             return False
             raise ValueError(Argument)
+
+    def key_moving(self, driver, **kwargs):
+        try:
+            if 'key_up' in kwargs:
+                value_keywords = kwargs.get('key_up')
+                return ActionChains(driver).key_up(value_keywords).perform()
+            elif 'key_down' in kwargs:
+                value_keywords = kwargs.get('key_down')
+                return ActionChains(driver).key_up(value_keywords).perform()
+        except WebDriverException:
+            return False
+            raise WebDriverError('Error from webdriver')

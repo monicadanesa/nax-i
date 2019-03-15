@@ -113,3 +113,9 @@ def test_double_click_by_css():
     url = 'https://www.python.org/search/?q=test&submit='
 
     assert current_url == url
+
+def test_keyboard_move_up():
+    browser.keyboard_move(key_up='keys.Keys.C')
+
+def test_keyboard_move_down():
+    browser.keyboard_move(key_down='keys.Keys.C')

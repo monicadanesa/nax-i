@@ -14,7 +14,7 @@ class Browser:
         self.ce = Common_element()
         self.el = Element()
 
-    def navigate_url(self, url, driver_name='firefox', **kwargs):
+    def navigate_url(self, url, driver_name='chrome', **kwargs):
         if driver_name == 'chrome':
             try:
                 chrome = ChromeDriver()
@@ -118,3 +118,6 @@ class Browser:
     def get_text(self, **kwargs):
         element_for_get_text = self.find_by(**kwargs)
         return self.ce.get_text(element_for_get_text)
+
+    def keyboard_move(self, **kwargs):
+        return self.el.key_moving(self.driver, **kwargs)

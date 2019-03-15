@@ -3,7 +3,10 @@ from naxi.browser import Browser
 
 
 browser = Browser()
-browser.navigate_url(url='https://xyz')
+browser.navigate_url(url='https://www.google.com/', driver_name='chrome')
+
+browser.keyboard_move(key_up='keys.Keys.C')
+browser.navigate_url(url='https://pypi.org/project/attrs/')
 browser.check_current_url()
 browser.find_by(id='inline-display-name')
 browser.wait_title_contains('Stack Overflow - Where Developers Learn, Share, & Build Careers')
@@ -23,12 +26,16 @@ print(result)
 browser.wait_element_by(id='lang_english', time=10)
 browser.click(id="a")
 
-from selenium.webdriver import Chrome
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-driver = webdriver.Chrome()
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-wait = WebDriverWait(driver, 10)
-wait.until(EC.presence_of_element_located((By.ID, 'lang_english')))
+selenium_grid_url = "http://198.0.0.1:4444/wd/hub"
+DesiredCapabilities
+# Create a desired capabilities object as a starting point.
+capabilities = DesiredCapabilities.FIREFOX.copy()
+capabilities['platform'] = "WINDOWS"
+capabilities['version'] = "10"
+
+# Instantiate an instance of Remote WebDriver with the desired capabilities.
+driver = webdriver.Remote(desired_capabilities=capabilities,
+                          command_executor=selenium_grid_url)

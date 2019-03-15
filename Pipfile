@@ -9,6 +9,7 @@ verify_ssl = true
 pytest = "*"
 alog = "*"
 selenium = "*"
+attrs = "*"
 
 [requires]
 python_version = "3.7"
